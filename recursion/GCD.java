@@ -1,4 +1,4 @@
-package recursion;
+package com.javamultiplex.datastructure.recursion;
 
 public class GCD {
 
