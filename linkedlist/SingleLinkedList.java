@@ -1,3 +1,5 @@
+package com.javamultiplex.datastructure.linkedlist;
+
 public class SingleLinkedList {
 
 	private class Node {
