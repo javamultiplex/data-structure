@@ -1,4 +1,4 @@
-package union_find;
+package com.javamultiplex.datastructure.disjointset;
 
 import java.util.Arrays;
 
