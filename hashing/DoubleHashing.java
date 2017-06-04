@@ -1,4 +1,4 @@
-package Hashing;
+package com.javamultiplex.datastructure.hashing;
 
 //Double Hashing.
 public class DoubleHashing {
