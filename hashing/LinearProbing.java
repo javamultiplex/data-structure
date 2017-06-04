@@ -1,4 +1,4 @@
-package Hashing;
+package com.javamultiplex.datastructure.hashing;
 
 //Linear probing or Open Addressing or Closed hashing.
 public class LinearProbing {
