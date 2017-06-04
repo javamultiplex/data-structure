@@ -195,6 +195,7 @@ public class SingleLinkedList {
 
 		if (isEmpty()) {
 			System.out.println("Linked list is empty.");
+			return;
 		} else {
 			while (head != null) {
 				head = head.getNext();
@@ -209,6 +210,7 @@ public class SingleLinkedList {
 		if (isEmpty()) {
 
 			System.out.println("Linked list is empty.");
+			return;
 
 		} else {
 			Node current = head;
