@@ -1,4 +1,4 @@
-package Hashing;
+package com.javamultiplex.datastructure.hashing;
 
 //Quadratic probing.
 public class QuadraticProbing {
