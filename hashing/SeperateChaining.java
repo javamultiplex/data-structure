@@ -1,4 +1,4 @@
-package Hashing;
+package com.javamultiplex.datastructure.hashing;
 
 import java.util.LinkedList;
 
