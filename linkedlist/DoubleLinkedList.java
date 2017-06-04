@@ -1,3 +1,5 @@
+package com.javamultiplex.datastructure.linkedlist;
+
 public class DoubleLinkedList {
 
 	private class Node {
