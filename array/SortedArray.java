@@ -156,6 +156,7 @@ public class SortedArray {
 		return searchInDescendingOrderSortedArrayIteratively(element, 0, length - 1);
 	}
 
+	//O(log(n))
 	private int searchInDescendingOrderSortedArrayIteratively(int element, int low, int high) {
 
 		while (high >= low) {
