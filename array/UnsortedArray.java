@@ -32,7 +32,6 @@ public class UnsortedArray {
 			arr[i] = arr[i - 1];
 		}
 		arr[0] = element;
-		System.out.println("Element has been inserted successfully.");
 	}
 
 	// O(1)
@@ -40,7 +39,6 @@ public class UnsortedArray {
 		length = length + 1;
 		arr = Arrays.copyOf(arr, length);
 		arr[length - 1] = element;
-		System.out.println("Element has been inserted successfully.");
 	}
 
 	// O(n)
@@ -56,27 +54,24 @@ public class UnsortedArray {
 			arr[i - 1] = arr[i];
 		}
 		length = length - 1;
-		arr = Arrays.copyOf(arr, length);
-		System.out.println("Element has been deleted successfully.");
+		
+		
 	}
 
 	// O(1)
 	public void deleteLastElement() {
 		length = length - 1;
-		arr = Arrays.copyOf(arr, length);
-		System.out.println("Element has been deleted successfully.");
 	}
 
 	// O(n)
 	public void deleteElementAtPosition(int position) {
-		if (position >= length) {
+		if (position < 0 || position >= length) {
 			System.out.println("Invalid position.");
 		} else {
 			for (int i = position; i < length - 1; i++) {
 				arr[i] = arr[i + 1];
 			}
 			length = length - 1;
-			System.out.println("Element has been deleted successfully.");
 		}
 	}
 
@@ -88,7 +83,6 @@ public class UnsortedArray {
 			arr[i] = arr[i - 1];
 		}
 		arr[position] = element;
-		System.out.println("Element has been deleted successfully.");
 	}
 
 }
