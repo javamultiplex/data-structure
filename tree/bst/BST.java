@@ -1,4 +1,4 @@
-package com.javamultiplex.array;
+package com.javamultiplex.datastructure.tree;
 
 public class BST {
 
