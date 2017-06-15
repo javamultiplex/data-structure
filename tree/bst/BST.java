@@ -1,4 +1,4 @@
-package com.javamultiplex.datastructure.tree;
+package Tree;
 
 public class BST {
 
@@ -46,6 +46,46 @@ public class BST {
 
 		root = insert(root, data);
 
+	}
+
+	public void delete(int data) {
+		root = delete(root, data);
+	}
+
+	private Node delete(Node node, int data) {
+
+		if (node == null) {
+			return node;
+		} else if (data < node.getData()) {
+			node.setLeft(delete(node.getLeft(), data));
+		} else if (data > node.getData()) {
+			node.setRight(delete(node.getRight(), data));
+		} else {
+
+			if (node.getLeft() == null && node.getRight() == null) {
+				node = null;
+			}else if (node.getLeft() == null) {
+				node = node.getRight();
+			} else if (node.getRight() == null) {
+				node = node.getLeft();
+			} else {
+				Node temp = findMin(node.getRight());
+				node.setData(temp.getData());
+				node.setRight(delete(node.getRight(), temp.getData()));
+			}
+
+		}
+		return node;
+
+	}
+
+	private Node findMin(Node node) {
+
+		while (node.getLeft() != null) {
+			node = node.getLeft();
+		}
+
+		return node;
 	}
 
 	private Node insert(Node node, int data) {
@@ -123,4 +163,5 @@ public class BST {
 		}
 		return null;
 	}
+
 }
