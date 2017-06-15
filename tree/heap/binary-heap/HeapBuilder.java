@@ -1,4 +1,4 @@
-package heap;
+package com.javamultiplex.datastructure.tree.heap.binaryheap;
 
 public class HeapBuilder {
 
