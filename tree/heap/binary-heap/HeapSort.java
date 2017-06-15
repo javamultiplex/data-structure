@@ -1,4 +1,4 @@
-package heap.applications;
+package com.javamultiplex.datastructure.tree.heap.binaryheap;
 
 public class HeapSort {
 
