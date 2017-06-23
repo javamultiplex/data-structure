@@ -1,4 +1,4 @@
-package trie;
+package com.javamultiplex.datastructure.tree.trie;
 
 import java.util.HashMap;
 import java.util.Map;
