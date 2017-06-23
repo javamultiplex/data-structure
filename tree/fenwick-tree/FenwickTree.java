@@ -1,5 +1,6 @@
-package binaryindextree;
+package com.javamultiplex.datastructure.tree.fenwicktree;
 
+//This is also called binary indexed tree.
 public class FenwickTree {
 
 	private int arr[];
