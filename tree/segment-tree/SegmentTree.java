@@ -1,4 +1,4 @@
-package segmenttree;
+package com.javamultiplex.datastructure.tree.segmenttree;
 
 public class SegmentTree {
 
