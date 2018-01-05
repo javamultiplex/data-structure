@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 //Left rotate an array
-public class ArrayRotator {
+public class LeftArrayRotator {
 
 	public static void main(String[] args) {
 
