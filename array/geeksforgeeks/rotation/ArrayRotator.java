@@ -3,6 +3,7 @@ package com.javamultiplex.array.rotation;
 import java.util.Arrays;
 import java.util.Scanner;
 
+//Left rotate an array
 public class ArrayRotator {
 
 	public static void main(String[] args) {
